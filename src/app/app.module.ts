@@ -13,6 +13,7 @@ import { ShippingComponent } from './shipping/shipping.component';
 import { CartService } from './cart.service';
 import { AppComponent } from './app.component';
 import { LoadingComponent } from './loading/loading.component';
+import { LoginPageComponent } from './login-page/login-page.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { LoadingComponent } from './loading/loading.component';
     ProductListComponent,
     ProductDetailsComponent,
     CartComponent,
-    ShippingComponent
+    ShippingComponent,
+    LoginPageComponent
   ],
   imports: [
     BrowserModule,
